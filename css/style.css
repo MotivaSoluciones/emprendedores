@@ -1510,8 +1510,8 @@ nav .simple-list .submenu a .fa {
 	}
 	header .additional-header-logo img {
 		display: block;
-		margin: 28px auto;
-		/*		height: 120px;*/
+		margin: 0 auto;
+		height: 90px;
 		/*		position: fixed;*/
 	}
 
@@ -13251,10 +13251,10 @@ form label {
 }
 
 .fondo {
-	background-repeat: no-repeat!important;
+
 	height: 80vh;
 	background-size: 100%!important;
-	background: #004fb9 url(../img/bg/bg-login.jpeg) fixed;
+	background: #004fb9 url(../img/bg/bg-login.png) fixed;
 }
 
 .fondo.page-registro {
@@ -13919,7 +13919,8 @@ p.result {
 	}
 }
 
-/*stilos inicio*/
+/*estilos inicio*/
+
 .titulo-inicio {
 	background: #ff560a;
 	border-radius: 5px;
@@ -13938,24 +13939,29 @@ p.result {
 	background: #3b8effff;
 	border: 2px solid #004ebd;
 	color: #fff;
-	padding: 21px 14px;
+	padding: 14px;
 	border-radius: 50%;
 	display: inline-block;
 	text-align: center;
 	font-weight: 600;
-	font-size: 16px;
+
+}
+
+.bg-azul span,
+.bg-rojo span {
+	font-size: 25px;
+	font-weight: 600;
 }
 
 .bg-rojo {
 	background: #f8a5baff;
 	border: 2px solid #f46c8f;
 	color: #fff;
-	padding: 21px 14px;
+	padding: 14px;
 	border-radius: 50%;
 	display: inline-block;
 	text-align: center;
 	font-weight: 600;
-	font-size: 16px;
 }
 
 .rango-puntos {
@@ -13981,4 +13987,8 @@ p.result {
 .texto-premio span {
 	font-size: 22px;
 	font-weight: 600;
+}
+
+.bold {
+	font-weight: bold;
 }
