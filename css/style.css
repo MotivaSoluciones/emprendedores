@@ -13992,3 +13992,18 @@ p.result {
 .bold {
 	font-weight: bold;
 }
+
+.bienvenida {
+	background: linear-gradient(to left, #024fb9, #ff3d00);
+	text-align: center;
+	color: #fff!important;
+}
+
+.condiciones {
+	background: #447ecc;
+	color: #fff;
+}
+
+.condiciones p {
+	color: #fff;
+}
