@@ -14002,8 +14002,16 @@ p.result {
 .condiciones {
 	background: #447ecc;
 	color: #fff;
+	line-height: 22px;
 }
 
 .condiciones p {
 	color: #fff;
+	font-size: 16px;
+}
+
+.texto-bienvenido {
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px
 }
